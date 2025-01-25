@@ -56,3 +56,13 @@ repos:
           - --pretty
           - --show-error-codes
           - --show-error-context
+sensor:
+  - platform: mobile_alerts
+    phone_id: 155894065080
+    devices:
+      - device_id: 031C9B16A2A6
+        name: Outside Temp
+        type: t1
+      - device_id: 031C9B16A2A6
+        name: Outside Humidity
+        type: h
